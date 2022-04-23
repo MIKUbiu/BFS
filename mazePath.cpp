@@ -44,7 +44,6 @@ int main() {
             pa[i][j].y=-1;}
     bfs();
     int x=0;int y=0;
-
 //    for(int i=0;i<5;i++){
 //    	for(int j=0;j<5;j++)
 //    	cerr<<pa[i][j].x<<" "<<pa[i][j].y<<endl;
@@ -63,7 +62,5 @@ int main() {
         x=nx;
         y=ny;
     }
-
-
     return 0;
 }
